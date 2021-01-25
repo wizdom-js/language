@@ -9,5 +9,14 @@ public class StringExample {
         여러줄의
         주석입니다.
          */
+
+        // 문자형 타입
+        String chicken = "치킨은 맛있어.";
+        String pizza = "피자도 맛있어요.";
+        System.out.println(chicken);
+        System.out.println(pizza);
+
+        String chickenAndPizza = chicken + pizza;
+        System.out.println(chickenAndPizza);
     }
 }
