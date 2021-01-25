@@ -18,5 +18,21 @@ public class StringExample {
 
         String chickenAndPizza = chicken + pizza;
         System.out.println(chickenAndPizza);
+
+        // 문자 길이 세기
+        System.out.println(chicken.length());
+        int length = chicken.length();
+        System.out.println(length);
+
+        // 문자 일부 바꾸기
+        String replaced = chicken.replaceAll("맛있어", "맛없어");
+        System.out.println(replaced);
+
+        // 문자열 자르기
+        String birthday = "2021/01/01";
+        String year = birthday.substring(0, 4);
+        String day = birthday.substring(8);
+        System.out.println("출생년도:" + year);
+        System.out.println("출생일:" + day);
     }
 }
